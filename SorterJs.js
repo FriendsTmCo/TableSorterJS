@@ -1,6 +1,6 @@
-function sortTable(row) {
+function sortTable(row,tableId) {
         let table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
-        table = document.getElementById("reportTb");
+        table = document.getElementById(tableId);
         switching = true;
         // Set the sorting direction to ascending:
         dir = "ascending";

@@ -1,5 +1,5 @@
 function sortTable(row) {
-        var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+        let table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
         table = document.getElementById("reportTb");
         switching = true;
         // Set the sorting direction to ascending:
